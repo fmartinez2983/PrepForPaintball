@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40032194DE425D96ABE2B82A /* Pods_PrepForPaintball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE21E1526DD8BD590601E681 /* Pods_PrepForPaintball.framework */; };
+		5924A9F31E7EFF910052E965 /* CreateAcctViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5924A9F21E7EFF910052E965 /* CreateAcctViewController.swift */; };
+		592E36851E7A2EB1007299E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 592E36841E7A2EB1007299E0 /* GoogleService-Info.plist */; };
 		592F0BBD1E10D4C600C56F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BBC1E10D4C600C56F77 /* AppDelegate.swift */; };
 		592F0BBF1E10D4C600C56F77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BBE1E10D4C600C56F77 /* ViewController.swift */; };
-		592F0BC21E10D4C600C56F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592F0BC01E10D4C600C56F77 /* Main.storyboard */; };
 		592F0BC41E10D4C600C56F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592F0BC31E10D4C600C56F77 /* Assets.xcassets */; };
 		592F0BC71E10D4C600C56F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592F0BC51E10D4C600C56F77 /* LaunchScreen.storyboard */; };
 		592F0BD21E10D4C600C56F77 /* PrepForPaintballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BD11E10D4C600C56F77 /* PrepForPaintballTests.swift */; };
 		592F0BDD1E10D4C600C56F77 /* PrepForPaintballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BDC1E10D4C600C56F77 /* PrepForPaintballUITests.swift */; };
+		592F0BEB1E11ADCC00C56F77 /* NewLoadOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BEA1E11ADCC00C56F77 /* NewLoadOutVC.swift */; };
+		592F0BED1E11B1FD00C56F77 /* NewGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BEC1E11B1FD00C56F77 /* NewGameVC.swift */; };
+		592F0BEF1E11B23000C56F77 /* LOCheckListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592F0BEE1E11B23000C56F77 /* LOCheckListVC.swift */; };
+		5966D72E1E80859900577390 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5966D72D1E80859900577390 /* LoginViewController.swift */; };
+		598B1A7C1E1383400097F259 /* AddMissionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598B1A7B1E1383400097F259 /* AddMissionVC.swift */; };
+		59A2D7391E835F45004D6DB3 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A2D7381E835F44004D6DB3 /* Services.swift */; };
+		59A2D73C1E836CED004D6DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A2D73A1E836CED004D6DB3 /* Main.storyboard */; };
+		59A2D73E1E849189004D6DB3 /* Missions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A2D73D1E849188004D6DB3 /* Missions.swift */; };
+		59A2D7441E854B17004D6DB3 /* MissionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A2D7431E854B17004D6DB3 /* MissionTableViewController.swift */; };
+		7D9395CA7D2F8CEE66126A39 /* Pods_PrepForPaintballUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CE862D82B33069BC70C854 /* Pods_PrepForPaintballUITests.framework */; };
+		ADCC2C6B9C45F24B9F21224D /* Pods_PrepForPaintballTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0846E7ACC7EBDDDAD4A447D8 /* Pods_PrepForPaintballTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0846E7ACC7EBDDDAD4A447D8 /* Pods_PrepForPaintballTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrepForPaintballTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		326DE095DC2284F2BBDF7FA5 /* Pods-PrepForPaintball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepForPaintball.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrepForPaintball/Pods-PrepForPaintball.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF02550F2009349A898A564 /* Pods-PrepForPaintballUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepForPaintballUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrepForPaintballUITests/Pods-PrepForPaintballUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5924A9F21E7EFF910052E965 /* CreateAcctViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAcctViewController.swift; sourceTree = "<group>"; };
+		592E36841E7A2EB1007299E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		592F0BB91E10D4C600C56F77 /* PrepForPaintball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepForPaintball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		592F0BBC1E10D4C600C56F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		592F0BBE1E10D4C600C56F77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		592F0BC11E10D4C600C56F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		592F0BC31E10D4C600C56F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		592F0BC61E10D4C600C56F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592F0BC81E10D4C600C56F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +64,21 @@
 		592F0BD81E10D4C600C56F77 /* PrepForPaintballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrepForPaintballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		592F0BDC1E10D4C600C56F77 /* PrepForPaintballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepForPaintballUITests.swift; sourceTree = "<group>"; };
 		592F0BDE1E10D4C600C56F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592F0BEA1E11ADCC00C56F77 /* NewLoadOutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLoadOutVC.swift; sourceTree = "<group>"; };
+		592F0BEC1E11B1FD00C56F77 /* NewGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameVC.swift; sourceTree = "<group>"; };
+		592F0BEE1E11B23000C56F77 /* LOCheckListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOCheckListVC.swift; sourceTree = "<group>"; };
+		5966D72D1E80859900577390 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		598B1A7B1E1383400097F259 /* AddMissionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMissionVC.swift; sourceTree = "<group>"; };
+		59A2D7381E835F44004D6DB3 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		59A2D73B1E836CED004D6DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59A2D73D1E849188004D6DB3 /* Missions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Missions.swift; sourceTree = "<group>"; };
+		59A2D7431E854B17004D6DB3 /* MissionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionTableViewController.swift; sourceTree = "<group>"; };
+		AE21E1526DD8BD590601E681 /* Pods_PrepForPaintball.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrepForPaintball.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CE862D82B33069BC70C854 /* Pods_PrepForPaintballUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrepForPaintballUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D855A4A4CA772CD4E89B5966 /* Pods-PrepForPaintballTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepForPaintballTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrepForPaintballTests/Pods-PrepForPaintballTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBC17FA4ACC5A48E974C9F77 /* Pods-PrepForPaintballUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepForPaintballUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrepForPaintballUITests/Pods-PrepForPaintballUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F594874254E1D24A097FD8E1 /* Pods-PrepForPaintballTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepForPaintballTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrepForPaintballTests/Pods-PrepForPaintballTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEF5D2D01C0D8AF89E4CE051 /* Pods-PrepForPaintball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepForPaintball.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrepForPaintball/Pods-PrepForPaintball.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40032194DE425D96ABE2B82A /* Pods_PrepForPaintball.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADCC2C6B9C45F24B9F21224D /* Pods_PrepForPaintballTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +102,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D9395CA7D2F8CEE66126A39 /* Pods_PrepForPaintballUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DB783C019F6C36155888FB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				326DE095DC2284F2BBDF7FA5 /* Pods-PrepForPaintball.debug.xcconfig */,
+				FEF5D2D01C0D8AF89E4CE051 /* Pods-PrepForPaintball.release.xcconfig */,
+				D855A4A4CA772CD4E89B5966 /* Pods-PrepForPaintballTests.debug.xcconfig */,
+				F594874254E1D24A097FD8E1 /* Pods-PrepForPaintballTests.release.xcconfig */,
+				DBC17FA4ACC5A48E974C9F77 /* Pods-PrepForPaintballUITests.debug.xcconfig */,
+				3CF02550F2009349A898A564 /* Pods-PrepForPaintballUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		592F0BB01E10D4C500C56F77 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				592F0BD01E10D4C600C56F77 /* PrepForPaintballTests */,
 				592F0BDB1E10D4C600C56F77 /* PrepForPaintballUITests */,
 				592F0BBA1E10D4C600C56F77 /* Products */,
+				0DB783C019F6C36155888FB6 /* Pods */,
+				92A8767949D4D6F529F95371 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +148,20 @@
 			isa = PBXGroup;
 			children = (
 				592F0BBC1E10D4C600C56F77 /* AppDelegate.swift */,
+				5924A9F21E7EFF910052E965 /* CreateAcctViewController.swift */,
+				5966D72D1E80859900577390 /* LoginViewController.swift */,
 				592F0BBE1E10D4C600C56F77 /* ViewController.swift */,
-				592F0BC01E10D4C600C56F77 /* Main.storyboard */,
+				592F0BEA1E11ADCC00C56F77 /* NewLoadOutVC.swift */,
+				592F0BEC1E11B1FD00C56F77 /* NewGameVC.swift */,
+				592F0BEE1E11B23000C56F77 /* LOCheckListVC.swift */,
+				598B1A7B1E1383400097F259 /* AddMissionVC.swift */,
+				59A2D7431E854B17004D6DB3 /* MissionTableViewController.swift */,
+				59A2D73D1E849188004D6DB3 /* Missions.swift */,
+				59A2D7381E835F44004D6DB3 /* Services.swift */,
+				59A2D73A1E836CED004D6DB3 /* Main.storyboard */,
 				592F0BC31E10D4C600C56F77 /* Assets.xcassets */,
 				592F0BC51E10D4C600C56F77 /* LaunchScreen.storyboard */,
+				592E36841E7A2EB1007299E0 /* GoogleService-Info.plist */,
 				592F0BC81E10D4C600C56F77 /* Info.plist */,
 			);
 			path = PrepForPaintball;
@@ -125,6 +185,16 @@
 			path = PrepForPaintballUITests;
 			sourceTree = "<group>";
 		};
+		92A8767949D4D6F529F95371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE21E1526DD8BD590601E681 /* Pods_PrepForPaintball.framework */,
+				0846E7ACC7EBDDDAD4A447D8 /* Pods_PrepForPaintballTests.framework */,
+				D1CE862D82B33069BC70C854 /* Pods_PrepForPaintballUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 592F0BE11E10D4C600C56F77 /* Build configuration list for PBXNativeTarget "PrepForPaintball" */;
 			buildPhases = (
+				69994BBB468D296A1E1F5A25 /* [CP] Check Pods Manifest.lock */,
 				592F0BB51E10D4C500C56F77 /* Sources */,
 				592F0BB61E10D4C500C56F77 /* Frameworks */,
 				592F0BB71E10D4C500C56F77 /* Resources */,
+				DB4ECA8B8C0DD31E9A0097A0 /* [CP] Embed Pods Frameworks */,
+				02331BCACF02911CF2BE09BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 592F0BE41E10D4C600C56F77 /* Build configuration list for PBXNativeTarget "PrepForPaintballTests" */;
 			buildPhases = (
+				DE947CEA50AFFCEED8B58881 /* [CP] Check Pods Manifest.lock */,
 				592F0BC91E10D4C600C56F77 /* Sources */,
 				592F0BCA1E10D4C600C56F77 /* Frameworks */,
 				592F0BCB1E10D4C600C56F77 /* Resources */,
+				81E7BB9560CF3FB34A53EE8F /* [CP] Embed Pods Frameworks */,
+				F042F4337A89B46C98CF9F47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 592F0BE71E10D4C600C56F77 /* Build configuration list for PBXNativeTarget "PrepForPaintballUITests" */;
 			buildPhases = (
+				E68B0A907CE345D1765C84C2 /* [CP] Check Pods Manifest.lock */,
 				592F0BD41E10D4C600C56F77 /* Sources */,
 				592F0BD51E10D4C600C56F77 /* Frameworks */,
 				592F0BD61E10D4C600C56F77 /* Resources */,
+				C31089AB9D4E53D5F52C07C7 /* [CP] Embed Pods Frameworks */,
+				22C19396CBA06F172823CE91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +316,8 @@
 			files = (
 				592F0BC71E10D4C600C56F77 /* LaunchScreen.storyboard in Resources */,
 				592F0BC41E10D4C600C56F77 /* Assets.xcassets in Resources */,
-				592F0BC21E10D4C600C56F77 /* Main.storyboard in Resources */,
+				592E36851E7A2EB1007299E0 /* GoogleService-Info.plist in Resources */,
+				59A2D73C1E836CED004D6DB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +337,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02331BCACF02911CF2BE09BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrepForPaintball/Pods-PrepForPaintball-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22C19396CBA06F172823CE91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrepForPaintballUITests/Pods-PrepForPaintballUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69994BBB468D296A1E1F5A25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81E7BB9560CF3FB34A53EE8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrepForPaintballTests/Pods-PrepForPaintballTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31089AB9D4E53D5F52C07C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrepForPaintballUITests/Pods-PrepForPaintballUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4ECA8B8C0DD31E9A0097A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrepForPaintball/Pods-PrepForPaintball-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE947CEA50AFFCEED8B58881 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E68B0A907CE345D1765C84C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F042F4337A89B46C98CF9F47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrepForPaintballTests/Pods-PrepForPaintballTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		592F0BB51E10D4C500C56F77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				592F0BBF1E10D4C600C56F77 /* ViewController.swift in Sources */,
+				5924A9F31E7EFF910052E965 /* CreateAcctViewController.swift in Sources */,
+				59A2D73E1E849189004D6DB3 /* Missions.swift in Sources */,
+				592F0BEB1E11ADCC00C56F77 /* NewLoadOutVC.swift in Sources */,
+				592F0BEF1E11B23000C56F77 /* LOCheckListVC.swift in Sources */,
+				5966D72E1E80859900577390 /* LoginViewController.swift in Sources */,
+				59A2D7441E854B17004D6DB3 /* MissionTableViewController.swift in Sources */,
 				592F0BBD1E10D4C600C56F77 /* AppDelegate.swift in Sources */,
+				592F0BED1E11B1FD00C56F77 /* NewGameVC.swift in Sources */,
+				59A2D7391E835F45004D6DB3 /* Services.swift in Sources */,
+				598B1A7C1E1383400097F259 /* AddMissionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,20 +526,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		592F0BC01E10D4C600C56F77 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				592F0BC11E10D4C600C56F77 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		592F0BC51E10D4C600C56F77 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				592F0BC61E10D4C600C56F77 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		59A2D73A1E836CED004D6DB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A2D73B1E836CED004D6DB3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,10 +638,12 @@
 		};
 		592F0BE21E10D4C600C56F77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326DE095DC2284F2BBDF7FA5 /* Pods-PrepForPaintball.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4ZRTFFQ77X;
 				INFOPLIST_FILE = PrepForPaintball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gameon.PrepForPaintball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,10 +653,12 @@
 		};
 		592F0BE31E10D4C600C56F77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF5D2D01C0D8AF89E4CE051 /* Pods-PrepForPaintball.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4ZRTFFQ77X;
 				INFOPLIST_FILE = PrepForPaintball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gameon.PrepForPaintball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +668,7 @@
 		};
 		592F0BE51E10D4C600C56F77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D855A4A4CA772CD4E89B5966 /* Pods-PrepForPaintballTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +684,7 @@
 		};
 		592F0BE61E10D4C600C56F77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F594874254E1D24A097FD8E1 /* Pods-PrepForPaintballTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +700,7 @@
 		};
 		592F0BE81E10D4C600C56F77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC17FA4ACC5A48E974C9F77 /* Pods-PrepForPaintballUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4ZRTFFQ77X;
@@ -481,6 +715,7 @@
 		};
 		592F0BE91E10D4C600C56F77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF02550F2009349A898A564 /* Pods-PrepForPaintballUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4ZRTFFQ77X;
@@ -512,6 +747,7 @@
 				592F0BE31E10D4C600C56F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		592F0BE41E10D4C600C56F77 /* Build configuration list for PBXNativeTarget "PrepForPaintballTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +756,7 @@
 				592F0BE61E10D4C600C56F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		592F0BE71E10D4C600C56F77 /* Build configuration list for PBXNativeTarget "PrepForPaintballUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +765,7 @@
 				592F0BE91E10D4C600C56F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

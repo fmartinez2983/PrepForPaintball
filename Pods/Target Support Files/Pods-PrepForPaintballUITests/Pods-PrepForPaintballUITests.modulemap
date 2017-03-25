@@ -1,0 +1,6 @@
+framework module Pods_PrepForPaintballUITests {
+  umbrella header "Pods-PrepForPaintballUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
