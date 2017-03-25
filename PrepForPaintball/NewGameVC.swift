@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import Firebase
 
 class NewGameVC: UIViewController{
     
